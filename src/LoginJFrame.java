@@ -13,8 +13,8 @@ public class LoginJFrame extends JFrame implements ActionListener {
 
 	JPanel jpn = new JPanel();
 	TextField txf = new TextField(10);
-	JButton jbt = new JButton("进入游戏");
-	JLabel jlb = new JLabel("请输入用户名");
+	JButton jbt = new JButton("杩涘叆娓告垙");
+	JLabel jlb = new JLabel("璇疯緭鍏ョ敤鎴峰悕");
 	
 	public LoginJFrame() {
 		super();

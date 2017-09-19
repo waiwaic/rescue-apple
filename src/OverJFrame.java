@@ -6,9 +6,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class OverJFrame extends JFrame implements ActionListener {
-	JLabel jlb = new JLabel(User.getName() + "ÄãÌ«²ËÁË£¬²Å" + User.getScore() + "·Ö£¬»Ø¼ÒÑøÖí°É");
-	JButton restart = new JButton("²»·şÖØÀ´");
-	JButton over = new JButton("»Ø¼ÒÑøÖí");
+	JLabel jlb = new JLabel(User.getName() + "ä½ å¤ªèœäº†ï¼Œæ‰" + User.getScore() + "åˆ†ï¼Œå›å®¶å…»çŒªå§");
+	JButton restart = new JButton("ä¸æœé‡æ¥");
+	JButton over = new JButton("å›å®¶å…»çŒª");
 	JPanel jpn = new JPanel();
 	MyPanel mypanel;
 

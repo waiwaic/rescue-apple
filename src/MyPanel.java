@@ -42,7 +42,7 @@ public class MyPanel extends JPanel implements Runnable, KeyListener {
 		super.paint(g);
 		g.drawImage(img_bg.getImage(), 0, 0, getWidth(), getHeight(), this);
 		g.setColor(Color.WHITE);
-		g.setFont(new Font("Î¢ÈíÑÅºÚ", 1, 50));
+		g.setFont(new Font("å¾®è½¯é›…é»‘", 1, 50));
 		for (int i = 0; i < NUM; i++) {
 			g.drawImage(img_apple.getImage(), x[i] - 20, y[i] - 60, this);
 			g.drawString(String.valueOf(str[i]), x[i], y[i]);
@@ -51,8 +51,8 @@ public class MyPanel extends JPanel implements Runnable, KeyListener {
 			}
 		}
 		g.setColor(Color.RED);
-		g.setFont(new Font("Î¢ÈíÑÅºÚ", 1, 35));
-		g.drawString("·ÖÊý", 600, 70);
+		g.setFont(new Font("å¾®è½¯é›…é»‘", 1, 35));
+		g.drawString("åˆ†æ•°", 600, 70);
 		g.drawString(String.valueOf(User.getScore()), 700, 70);
 		g.drawImage(img_xin.getImage(), 820, 10, this);
 		g.drawString(String.valueOf(User.getHPNum()), 920, 70);

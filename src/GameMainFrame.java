@@ -19,11 +19,11 @@ class GameMainFrame extends JFrame implements ActionListener {
 
 	public GameMainFrame() {
 		super();
-		jbt_start = new JButton("¿ªÊ¼");
+		jbt_start = new JButton("å¼€å§‹");
 		jbt_start.addActionListener(this);
-		jbt_stop = new JButton("ÔİÍ£");
+		jbt_stop = new JButton("æš‚åœ");
 		jbt_stop.addActionListener(this);
-		jbt_over = new JButton("½áÊø");
+		jbt_over = new JButton("ç»“æŸ");
 		jbt_over.addActionListener(this);
 		JPanel jpn = new JPanel();
 		jpn.add(jbt_start);
